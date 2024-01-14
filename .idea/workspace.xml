@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7016d96-2cac-445e-9927-192a866553a6" name="Changes" comment="Hello World!">
-      <change afterPath="$PROJECT_DIR$/src/FuncInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode394DecodeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseLinkedListIgnoreSpecialChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortByFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/TreeBasics.java" afterDir="false" />
+    <list default="true" id="a7016d96-2cac-445e-9927-192a866553a6" name="Changes" comment="new DS algo problems">
+      <change afterPath="$PROJECT_DIR$/src/JavaStreamPractice/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestSubStringNoRepeatChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseEachWordInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +52,16 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseLinkedListIgnoreSpecialChar">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+  <component name="RunManager" selected="Application.ValidParenthesis">
+    <configuration name="LongestSubStringNoRepeatChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestSubStringNoRepeatChar" />
+      <module name="DSAlgo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseEachWordInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseEachWordInString" />
       <module name="DSAlgo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,8 +74,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortByFrequency" />
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaStreamPractice.StreamDemo" />
+      <module name="DSAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaStreamPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidParenthesis" />
       <module name="DSAlgo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,9 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParenthesis" />
+        <item itemvalue="Application.ReverseEachWordInString" />
+        <item itemvalue="Application.LongestSubStringNoRepeatChar" />
+        <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.ReverseLinkedListIgnoreSpecialChar" />
-        <item itemvalue="Application.SortByFrequency" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687709357976</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new DS algo problems">
+      <created>1705169309265</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705169309265</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +171,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello World!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hello World!" />
+    <MESSAGE value="new DS algo problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="new DS algo problems" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaStreamPractice/StreamDemo.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaStreamPractice/StreamDemo.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
