@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7016d96-2cac-445e-9927-192a866553a6" name="Changes" comment="new DS algo problems">
-      <change afterPath="$PROJECT_DIR$/src/JavaStreamPractice/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LongestSubStringNoRepeatChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseEachWordInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidParenthesis.java" afterDir="false" />
+    <list default="true" id="a7016d96-2cac-445e-9927-192a866553a6" name="Changes" comment="new leetcode problems and stream practice.">
+      <change afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/PhoneBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CanFinish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountWindowDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DepthFirstSearchGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindLevelBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LargestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestAlternatingSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestIncrSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestNiceSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/BookShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,34 +62,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.ValidParenthesis">
-    <configuration name="LongestSubStringNoRepeatChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestSubStringNoRepeatChar" />
-      <module name="DSAlgo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseEachWordInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseEachWordInString" />
-      <module name="DSAlgo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseLinkedListIgnoreSpecialChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseLinkedListIgnoreSpecialChar" />
-      <module name="DSAlgo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaStreamPractice.StreamDemo" />
+  <component name="RunManager" selected="Application.BuilderDesignPattern.Demo">
+    <configuration name="BuilderDesignPattern.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuilderDesignPattern.Demo" />
       <module name="DSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaStreamPractice.*" />
+          <option name="PATTERN" value="BuilderDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,8 +76,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValidParenthesis" />
+    <configuration name="CountWindowDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountWindowDistinct" />
+      <module name="DSAlgo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrototypeDesignPattern.Demo" />
+      <module name="DSAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrototypeDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindLevelBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindLevelBFS" />
+      <module name="DSAlgo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestIncrSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestIncrSubsequence" />
       <module name="DSAlgo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidParenthesis" />
-        <item itemvalue="Application.ReverseEachWordInString" />
-        <item itemvalue="Application.LongestSubStringNoRepeatChar" />
-        <item itemvalue="Application.StreamDemo" />
-        <item itemvalue="Application.ReverseLinkedListIgnoreSpecialChar" />
+        <item itemvalue="Application.BuilderDesignPattern.Demo" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.CountWindowDistinct" />
+        <item itemvalue="Application.LongestIncrSubsequence" />
+        <item itemvalue="Application.FindLevelBFS" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705169309265</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new leetcode problems and stream practice.">
+      <created>1705254707571</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705254707571</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +195,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello World!" />
     <MESSAGE value="new DS algo problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="new DS algo problems" />
+    <MESSAGE value="new leetcode problems and stream practice." />
+    <option name="LAST_COMMIT_MESSAGE" value="new leetcode problems and stream practice." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -187,6 +211,20 @@
           <line>54</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongestAlternatingSubArray.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CanFinish.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
